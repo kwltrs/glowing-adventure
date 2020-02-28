@@ -7,12 +7,13 @@ on:
 
 jobs:
   publish:
+    name: Publish
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - run: npm install
-    - run: npm run lerna -- changed
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: npm install
+      - run: npm run lerna -- changed
