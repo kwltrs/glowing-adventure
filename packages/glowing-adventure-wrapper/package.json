@@ -1,0 +1,14 @@
+{
+  "name": "@kwltrs/glowing-adventure-wrapper",
+  "version": "0.0.0",
+  "description": "The Wrapper Around Glowing Adventure Client",
+  "main": "index.js",
+  "author": "kris@wltrs.org",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@kwltrs/glowing-adventure-client": "0.0.0"
+  }
+}

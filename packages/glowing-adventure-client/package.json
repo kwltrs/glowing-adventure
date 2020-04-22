@@ -1,0 +1,11 @@
+{
+  "name": "@kwltrs/glowing-adventure-client",
+  "version": "0.0.0",
+  "description": "The Glowing Adventure Client",
+  "main": "index.js",
+  "author": "kris@wltrs.org",
+  "license": "MIT",
+  "publishConfig": {
+      "access": "public"
+  }
+}

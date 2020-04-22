@@ -1,0 +1,10 @@
+{
+  "packages": [ "packages/*" ],
+  "version": "independent",
+  "hoist": true,
+  "command": {
+      "version": {
+          "conventionalCommits": true
+      }
+  }
+}
